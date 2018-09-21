@@ -1,0 +1,54 @@
+{
+    "name": "js-ipfs-big-data-tests",
+    "version": "0.0.0",
+    "description": "Big data test harness",
+    "repository": "hugomrdias/js-ipfs-big-data-tests",
+    "author": "Hugo Dias <hugomrdias@gmail.com> (hugodias.me)",
+    "license": "MIT",
+    "main": "index.js",
+    "engines": {
+        "node": ">=4"
+    },
+    "scripts": {
+        "lint": "aegir lint",
+        "test:node": "mocha ./test/node/*.spec.js --exit --bail",
+        "test:browser-api-daemon": "./test/browser/api-daemon/run.js",
+        "test:browser-api-proc": "./test/browser/api-proc/run.js"
+    },
+    "files": [
+        "src",
+        "test"
+    ],
+    "keywords": [
+        ""
+    ],
+    "dependencies": {
+        "async": "^2.6.1",
+        "del": "^3.0.0",
+        "get-stream": "^4.0.0",
+        "iso-random-stream": "^1.0.0",
+        "meow": "^5.0.0",
+        "mkdirp": "^0.5.1",
+        "mocha": "^5.2.0",
+        "ndb": "^1.0.25",
+        "pull-stream": "^3.6.9",
+        "signal-exit": "^3.0.2",
+        "tempy": "^0.2.1"
+    },
+    "devDependencies": {
+        "aegir": "^15.2.0",
+        "execa": "^1.0.0",
+        "go-ipfs-dep": "^0.4.17",
+        "ipfs": "^0.32.1",
+        "ipfsd-ctl": "^0.39.2",
+        "karma": "^3.0.0",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-firefox-launcher": "^1.1.0",
+        "karma-mocha": "^1.3.0",
+        "karma-safari-launcher": "^1.0.0",
+        "karma-sourcemap-loader": "^0.3.7",
+        "karma-webpack": "^3.0.5",
+        "pify": "^4.0.0",
+        "pretty-bytes": "^5.1.0"
+    }
+}
