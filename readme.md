@@ -76,7 +76,7 @@ yarn test:browser-api-proc --fgrep 'api api-add'
 
 
 ```
-For debugging check node tests, with `ndb` you get a nice setup with 2 devtools, one in the browser and another to node and auto rebuild from karma. 
+For debugging check node tests, with `ndb` you get a nice setup with 2 devtools, one in the browser and another to connected to node and auto rebuild from karma. 
 
 ## TODO
 
