@@ -2,14 +2,6 @@
 
 > Big data test harness
 
-
-## Install
-
-```
-$ npm install js-ipfs-big-data-tests
-```
-
-
 ## Usage
 
 ### Node tests
